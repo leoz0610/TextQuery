@@ -1,12 +1,12 @@
-#include<iostream>
+#include <iostream>
+#include "query_result.h"
 
 using namespace std;
 
 int main() {
-    int a(1), b(2);
-    auto c(a + b);
+    QueryResult result;
 
-    cout << "hello " << c << endl;
+    cout << "hello " << result.str() << endl;
     
     return 0;
 }

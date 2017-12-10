@@ -4,8 +4,10 @@ CC = g++
 CCFLG = -std=c++11
 DBGFLG = -g
 
+SRC += query_result.cpp
 SRC += textquery.m.cpp
 
+OBJ += query_result.o
 OBJ += textquery.m.o
 
 TSK = textquery.tsk
